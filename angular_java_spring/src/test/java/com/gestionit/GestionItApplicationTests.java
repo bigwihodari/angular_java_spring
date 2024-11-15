@@ -1,4 +1,4 @@
-package com.angular_java_spring;
+package com.gestionit;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,7 +1,7 @@
-package com.service;
+package com.gestionit.service;
 
-import com.entities.User;
-import com.repositories.UserRepository;
+import com.gestionit.entities.User;
+import com.gestionit.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

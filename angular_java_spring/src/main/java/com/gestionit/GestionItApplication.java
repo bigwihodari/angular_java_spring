@@ -1,4 +1,4 @@
-package com.angular_java_spring;
+package com.gestionit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

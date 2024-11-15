@@ -1,4 +1,4 @@
-package com.entities;
+package com.gestionit.entities;
 
 import lombok.Getter;
 import lombok.Setter;

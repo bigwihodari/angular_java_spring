@@ -1,4 +1,4 @@
-package com.entities;
+package com.gestionit.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

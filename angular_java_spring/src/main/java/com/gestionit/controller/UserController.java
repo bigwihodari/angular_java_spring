@@ -1,7 +1,7 @@
-package com.controller;
+package com.gestionit.controller;
 
-import com.entities.LoginRequest;
-import com.service.UserService;
+import com.gestionit.entities.LoginRequest;
+import com.gestionit.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -22,5 +22,10 @@ public class UserController {
         } else {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Invalid credentials");
         }
+    }
+
+    @GetMapping("/test")
+    public ResponseEntity<String> test() {
+        return ResponseEntity.ok("Test endpoint working");
     }
 }

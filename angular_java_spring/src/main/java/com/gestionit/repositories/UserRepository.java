@@ -1,6 +1,6 @@
-package com.repositories;
+package com.gestionit.repositories;
 
-import com.entities.User;
+import com.gestionit.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
